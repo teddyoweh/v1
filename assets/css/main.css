@@ -980,7 +980,8 @@ canvas {
     position: fixed;
     margin-top: -100px;
     z-index: 99;
-    /* display: flex; */
+    display: flex;
+    margin-right: 12%;
 }
 
 @media (max-width: 767px) {
@@ -1013,11 +1014,12 @@ canvas {
 
 .header-follow ul li {
     display: block;
-    font-size: 25px;
+    font-size: 11px;
     text-align: center;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     transition: all 300ms;
-    text-shadow: 2px 0px 8px #667b95, 1px 0px 2px;
+    text-shadow: 0px 0px 14px #667b953d, 1px 0px 2px;
+    padding: 10px;
 }
 
 .header-follow ul li .fa {
