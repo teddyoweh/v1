@@ -1,3 +1,4 @@
+import logo from "../assets/imgs/teddy.png";
 export default function Home(){
 return (
 
@@ -33,7 +34,7 @@ return (
             <div class="logo-content ">
                 <div class="logo">
                     <a href="/">
-                        <img src="assets/images/icons/teddy.png" alt="teddy oweh logo"/>
+                        <img src={logo} alt="teddy oweh logo"/>
                     </a>
                 </div>
             </div>
@@ -53,38 +54,38 @@ return (
                 <center>
                     <div class="menu-bg-title" id="menutext">Menu</div>
                     <ul class="menu-content list-unstyled p-relative d-flex flex-column justify-content-center w-100 h-100">
-                        <li onmouseover="newmenutext('Home')">
+                        <li onMouseOver="newmenutext('Home')">
                             <a href="/">
                                 <span class="menu-title">Home</span>
                                 <span class="menu-number">-</span>
                             </a>
                         </li>
-                        <li onmouseover="newmenutext('About')">
+                        <li onMouseOver="newmenutext('About')">
                             <a href=" /about ">
                                 <span class="menu-title ">About</span>
                                 <span class="menu-number ">-</span>
                             </a>
                         </li>
-                        <li onmouseover="newmenutext( 'Services') ">
+                        <li onMouseOver="newmenutext( 'Services') ">
                             <a href="/services ">
                                 <span class="menu-title ">Services</span>
                                 <span class="menu-number ">-</span>
                             </a>
                         </li>
-                        <li onmouseover="newmenutext( 'Portfolio') ">
+                        <li onMouseOver="newmenutext( 'Portfolio') ">
                             <a href=" /portfolio ">
                                 <span class="menu-title ">Portfolio</span>
                                 <span class="menu-number ">-</span>
                             </a>
                         </li>
 
-                        <li onmouseover="newmenutext('Contact')">
+                        <li onMouseOver="newmenutext('Contact')">
                             <a href=" /contact ">
                                 <span class="menu-title ">Contact</span>
                                 <span class="menu-number ">-</span>
                             </a>
                         </li>
-                        <li onmouseover="newmenutext( 'Resume') ">
+                        <li onMouseOver="newmenutext( 'Resume') ">
                             <a href="assets/Profile.pdf ">
                                 <span class="menu-title ">Resume</span>
                                 <span class="menu-number ">-</span>

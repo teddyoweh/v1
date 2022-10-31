@@ -1,7 +1,7 @@
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Home';
-// import Messages from './Messages';
+import About from './About';
 // import Groups from './Groups';
 // import Calls from './Call';
 // import { PageNotFound } from './errors';
@@ -9,7 +9,8 @@ export default function Views() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={About} />
+        <Route  path="/about" component={About} />
         {/* <Route exact path="/messages" component={Messages} /> */}
         {/* <Route exact path="/groups" component={Groups} />
         <Route exact path="/calls" component={Calls} />
